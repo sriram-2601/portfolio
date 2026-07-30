@@ -55,7 +55,7 @@ export default function Home() {
               <p className="text-muted">Year Experience</p>
             </div>
             <div className={styles.statItem}>
-              <h3>+3</h3>
+              <h3>+6</h3>
               <p className="text-muted">Core Projects</p>
             </div>
             <div className={styles.statItem}>
@@ -107,6 +107,36 @@ export default function Home() {
               <div className={styles.projectLinks}>
                 <a href="https://smart-price-prediction.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Live Demo</a>
                 <a href="https://github.com/sriram-2601/SmartPricePrediction" target="_blank" rel="noopener noreferrer" className="btn btn-outline">GitHub</a>
+              </div>
+            </div>
+
+            <div className={`card ${styles.projectCard}`}>
+              <img src="https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&q=80&w=400&h=250" alt="NxtFlix Movie Streaming" className={styles.projectImage} />
+              <h3 className={styles.projectTitle}>NxtFlix – Movie Discovery</h3>
+              <p className={`text-muted ${styles.projectDesc}`}>A modern movie discovery app featuring secure user auth, infinite carousels, genre-based filtering, and watch-later list persistence using LocalStorage. Built with React 19 & Vite 7.</p>
+              <div className={styles.projectLinks}>
+                <a href="https://nxtflix-two.vercel.app" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Live Demo</a>
+                <a href="https://github.com/sriram-2601/NxtFlix" target="_blank" rel="noopener noreferrer" className="btn btn-outline">GitHub</a>
+              </div>
+            </div>
+
+            <div className={`card ${styles.projectCard}`}>
+              <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=400&h=250" alt="JobFinderAgent AI Assistant" className={styles.projectImage} />
+              <h3 className={styles.projectTitle}>JobFinderAgent – AI Assistant</h3>
+              <p className={`text-muted ${styles.projectDesc}`}>An AI-powered multi-agent system utilizing Google Gemini AI and Playwright to automate job scraping, resume compatibility scoring, resume skill-gap analysis, and instant Telegram/Email alerts.</p>
+              <div className={styles.projectLinks}>
+                <a href="https://jobfinder-agent.onrender.com/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Live Demo</a>
+                <a href="https://github.com/sriram-2601/JobFinderAgent" target="_blank" rel="noopener noreferrer" className="btn btn-outline">GitHub</a>
+              </div>
+            </div>
+
+            <div className={`card ${styles.projectCard}`}>
+              <img src="https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&q=80&w=400&h=250" alt="EcoPack AI" className={styles.projectImage} />
+              <h3 className={styles.projectTitle}>EcoPack AI – Circular Packaging</h3>
+              <p className={`text-muted ${styles.projectDesc}`}>An AI-driven e-commerce packaging auditor and volumetric optimizer utilizing Gemini AI. Features package layout analysis, surface area carbon metrics optimization, and QR-guided circular recycling instructions.</p>
+              <div className={styles.projectLinks}>
+                <a href="https://hackathon-plum-three.vercel.app" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Live Demo</a>
+                <a href="https://github.com/sriram-2601/Hackathon" target="_blank" rel="noopener noreferrer" className="btn btn-outline">GitHub</a>
               </div>
             </div>
 
