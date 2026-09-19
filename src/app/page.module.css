@@ -13,15 +13,21 @@
     grid-template-columns: 1fr;
     padding: 20px;
   }
+  .sidebar {
+    position: static;
+  }
 }
 
 /* Sidebar Styles */
 .sidebar {
+  position: sticky;
+  top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 30px;
   text-align: center;
+  z-index: 10;
 }
 
 .profileImage {
