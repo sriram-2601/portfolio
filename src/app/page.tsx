@@ -175,7 +175,7 @@ export default function Home() {
           <div className={styles.heroActions}>
             <a href="#contact" className="btn btn-primary">Let&apos;s Talk</a>
             <a href="#projects" className="text-white" style={{fontWeight: 600}}>Explore Projects →</a>
-            <a href="/resume.pdf" download="Sriram_Venkat_Resume.pdf" className="btn btn-outline" style={{marginLeft: 'auto'}}>
+            <a href="/res-1.pdf" download="Sriram_Venkat_Resume.pdf" className="btn btn-outline" style={{marginLeft: 'auto'}}>
               Download Resume
             </a>
           </div>
